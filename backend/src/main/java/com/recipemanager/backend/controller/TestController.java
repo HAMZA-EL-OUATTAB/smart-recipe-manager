@@ -25,7 +25,7 @@ public class TestController {
     public Map<String,Object> health(){
         Map<String,Object> response = new HashMap<>();
         response.put("status","UP");
-        response.put("sevice","Recipe Manager API");
+        response.put("service","Recipe Manager API");
         return response;
     }
 
